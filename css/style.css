@@ -10,9 +10,10 @@ h1,
 h2,
 h3 {
 	font-weight: 200;
+	color: #cd1958;
 }
 h2 {
-	color: #fcb040;
+	color: #cd1958;
 	font-size: 50px;
 	text-align: center;
 	margin-top: 0px;
@@ -116,14 +117,14 @@ h2 {
 				0 22px 0 1px #888;
 }
 .top-bar .active a {
-	color: #fcb040 !important;
+	color: #cd1958 !important;
 }
 
 
 /* Header */
 header {
 	padding: 60px 0 0;
-	background-color: #fcb040;
+	background-color: #cd1958;
 	color: white;
 	overflow: hidden;
 }
@@ -170,7 +171,7 @@ p,.hint p {
 	font-weight: 200;
 }
 .hint h3 {
-	color: #fcb040;
+	color: #cd1958;
 	display: inline-block;
 }
 .hint .icon {
@@ -229,7 +230,7 @@ p,.hint p {
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
-	background-color: #fcb040;
+	background-color: #cd1958;
 	-moz-box-shadow: none !important;
 	-webkit-box-shadow: none !important;
 	box-shadow: none !important;
@@ -268,8 +269,8 @@ p,.hint p {
 }
 .button.white {
 	clear: both;
-	color: #fcb040;
-	background-color: white;
+	color: white;
+	background-color: #801544;
 	border: 0 !important;
 	-moz-box-shadow: 0 1px 0 rgba(0,0,0,.2) !important;
 	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2) !important;
@@ -285,7 +286,7 @@ p,.hint p {
 	padding: 70px 0;
 }
 .section.orange {
-	background-color: #fcb040;
+	background-color: #cd1958;
 }
 .section.gray {
 	background-color: #f2f2f2;
@@ -312,12 +313,12 @@ p,.hint p {
 	font-size: 14px;
 }
 .feature .icon {
-	color: #fcb040;
+	color: #cd1958;
 	font-size: 4.8em;
 	border-radius: 200px;
 	-moz-border-radius: 200px;
 	-webkit-border-radius: 200px;
-	border: 2px solid #fcb040;
+	border: 2px solid #cd1958;
 	padding-top: 25px;
 	width: 130px;
 	height: 130px;
@@ -349,7 +350,7 @@ p,.hint p {
 }
 .quote .author {
 	font-size: 20px;
-	color: #fcb040;
+	color: #cd1958;
 	display: block;
 	text-align: center;
 }
@@ -377,7 +378,7 @@ p,.hint p {
 	background: #CCC;
 }
 .quotes .orbit-bullets li.active {
-	background: #fcb040;
+	background: #cd1958;
 }
 
 /* Pricing Table */
@@ -509,7 +510,7 @@ footer a.icon {
           transition: all 0.4s ease-in-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.50+ */
 }
 footer a.icon:hover {
-	color: #fcb040 !important;
+	color: #cd1958 !important;
 }
 
 /* COLORS */
@@ -1688,7 +1689,7 @@ you can use the generic selector below, but it's slower:
 }
 
 .styleswitcher #brown { background-color: #663300;}
-.styleswitcher #orange {background-color: #fcb040}
+.styleswitcher #orange {background-color: #cd1958}
 .styleswitcher #olive {background-color: #8FA411}
 .styleswitcher #green {background-color: #7ab800}
 .styleswitcher #lime {background-color: #cccc33}
