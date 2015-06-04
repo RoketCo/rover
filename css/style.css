@@ -128,7 +128,12 @@ header {
 	color: white;
 	overflow: hidden;
 }
-header img {
+header .logo {
+	width: 160px;
+	margin: 0 auto;
+	padding: 20px;
+}
+header .laptop {
 	margin-bottom: -140px;
 	margin-top: 20px;
 	display: inline-block;
