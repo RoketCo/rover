@@ -122,6 +122,7 @@ header {
 }
 header img {
 	margin-bottom: -140px;
+	margin-top: 20px;
 	display: inline-block;
 }
 header h1 {
@@ -138,7 +139,7 @@ header .subheading {
 	margin-bottom: 30px;
 	font-size: 28px;
 	line-height: 36px;
-	opacity: .8;
+	opacity: .9;
 }
 header .large-8 {
 	padding-left: 40px !important;
