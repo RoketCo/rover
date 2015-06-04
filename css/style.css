@@ -1,4 +1,8 @@
 /* Headlines */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+}
 h1,
 h2,
 h3 {
@@ -127,8 +131,8 @@ header img {
 }
 header h1 {
 	color: white;
-	font-size: 40px;
-	line-height: 50px;
+	font-size: 60px;
+	line-height: 70px;
 	font-weight: normal;
 }
 header .large-8 h1 {
@@ -1513,8 +1517,8 @@ you can use the generic selector below, but it's slower:
 @media (min-width: 768px) and (max-width: 1023px) {
 	header h1 {
 		color: white;
-		font-size: 40px;
-		line-height: 50px;
+		font-size: 60px;
+		line-height: 70px;
 		font-weight: normal;
 	}
 	header .subheading {
