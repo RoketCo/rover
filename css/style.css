@@ -123,7 +123,7 @@ h2 {
 
 /* Header */
 header {
-	padding: 60px 0 0;
+	padding: 30px 0 0;
 	background-color: #cd1958;
 	color: white;
 	overflow: hidden;
@@ -140,8 +140,8 @@ header .laptop {
 }
 header h1 {
 	color: white;
-	font-size: 66px;
-	line-height: 74px;
+	font-size: 60px;
+	line-height: 68px;
 	font-weight: normal;
 }
 header .large-8 h1 {
@@ -1528,8 +1528,8 @@ you can use the generic selector below, but it's slower:
 @media (min-width: 768px) and (max-width: 1023px) {
 	header h1 {
 		color: white;
-		font-size: 66px;
-		line-height: 74px;
+		font-size: 60px;
+		line-height: 68px;
 		font-weight: normal;
 	}
 	header .subheading {
