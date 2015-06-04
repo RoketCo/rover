@@ -31,7 +31,7 @@ h2 {
 	padding: 0 !important;
 	-moz-box-shadow: 0 1px 0 rgba(0,0,0,.1);
 	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
-	box-shadow: 0 1px 0 rgba(0,0,0,.1);	
+	box-shadow: 0 1px 0 rgba(0,0,0,.1);
 }
 .top-bar,
 .top-bar-section ul,
@@ -118,7 +118,6 @@ header {
 	padding: 60px 0 0;
 	background-color: #fcb040;
 	color: white;
-	margin-top: 78px;
 	overflow: hidden;
 }
 header img {
@@ -127,19 +126,19 @@ header img {
 }
 header h1 {
 	color: white;
-	font-size: 70px;
-	line-height: 74px;
+	font-size: 40px;
+	line-height: 50px;
 	font-weight: normal;
-	text-shadow: 0px 1px 1px rgba(0,0,0,0.2);
 }
 header .large-8 h1 {
-	margin: 100px 0 5px;	
+	margin: 100px 0 5px;
 }
 header .subheading {
 	display: block;
 	margin-bottom: 30px;
 	font-size: 28px;
-	text-shadow: 0px 1px 1px rgba(0,0,0,0.2);
+	line-height: 36px;
+	opacity: .8;
 }
 header .large-8 {
 	padding-left: 40px !important;
@@ -166,7 +165,7 @@ p,.hint p {
 }
 .hint .icon {
 	font-size: 24px;
-	line-height: 40px;	
+	line-height: 40px;
 }
 .hint-left {
 	float: right;
@@ -220,7 +219,7 @@ p,.hint p {
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
-	background-color: #fcb040;	
+	background-color: #fcb040;
 	-moz-box-shadow: none !important;
 	-webkit-box-shadow: none !important;
 	box-shadow: none !important;
@@ -264,7 +263,7 @@ p,.hint p {
 	border: 0 !important;
 	-moz-box-shadow: 0 1px 0 rgba(0,0,0,.2) !important;
 	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2) !important;
-	box-shadow: 0 1px 0 rgba(0,0,0,.2) !important;	
+	box-shadow: 0 1px 0 rgba(0,0,0,.2) !important;
 	background-image: none !important;
 }
 .button.white:hover {
@@ -351,7 +350,7 @@ p,.hint p {
 .quotes .orbit-next,
 .quotes .orbit-slide-number{
 	display: none !important;
-	
+
 }
 .quotes .orbit-timer {
 	visibility: hidden;
@@ -383,7 +382,7 @@ p,.hint p {
 	background-color: #fff;
 }
 .pricing-table .title {
-	font-size: 34px; 
+	font-size: 34px;
 	font-weight: 200;
 	background: transparent !important;
 	padding-bottom: 0;
@@ -450,7 +449,7 @@ p,.hint p {
 	border-radius: 0 0 4px 4px;
 	-moz-border-radius: 0 0 4px 4px;
 	-webkit-border-radius: 0 0 4px 4px;
-	
+
 }
 /* accordion */
 .section-container.accordion {
@@ -482,7 +481,7 @@ p,.hint p {
 .section-container.accordion .section.active .title {
 	border-bottom: 1px solid #e1e1e1;
 	background-color: #f1f1f1;
-}	
+}
 
 /* Footer */
 footer {
@@ -591,7 +590,7 @@ footer a.icon:hover {
 	background-color: #7ab800 !important;
 }
 .green .button:hover {
-	background-color: #72ab00 !important;	
+	background-color: #72ab00 !important;
 }
 .green .feature .icon {
 	border-color: #7ab800 !important;
@@ -620,7 +619,7 @@ footer a.icon:hover {
 	background-color: #cccc33 !important;
 }
 .lime .button:hover {
-	background-color: #bcbc27 !important;	
+	background-color: #bcbc27 !important;
 }
 .lime .feature .icon {
 	border-color: #cccc33 !important;
@@ -648,7 +647,7 @@ footer a.icon:hover {
 	background-color: #8FA411 !important;
 }
 .olive .button:hover {
-	background-color: #7e920c !important;	
+	background-color: #7e920c !important;
 }
 .olive .feature .icon {
 	border-color: #8FA411 !important;
@@ -677,7 +676,7 @@ footer a.icon:hover {
 	background-color: #66cccc !important;
 }
 .cyan .button:hover {
-	background-color: #52c3c3 !important;	
+	background-color: #52c3c3 !important;
 }
 .cyan .feature .icon {
 	border-color: #66cccc !important;
@@ -705,7 +704,7 @@ footer a.icon:hover {
 	background-color: #21aded !important;
 }
 .blue .button:hover {
-	background-color: #189cd8 !important;	
+	background-color: #189cd8 !important;
 }
 .blue .feature .icon {
 	border-color: #21aded !important;
@@ -733,11 +732,11 @@ footer a.icon:hover {
 	background-color: #E97c5f !important;
 }
 .red .button:hover {
-	background-color: #d06345 !important;	
+	background-color: #d06345 !important;
 }
 .red .feature .icon {
 	border-color: #E97c5f !important;
-} 
+}
 .red .button {
 	border-color: #c85a3c !important;
 }
@@ -761,11 +760,11 @@ footer a.icon:hover {
 	background-color: #990000 !important;
 }
 .winered .button:hover {
-	background-color: #8a0000 !important;	
+	background-color: #8a0000 !important;
 }
 .winered .feature .icon {
 	border-color: #990000 !important;
-} 
+}
 .winered .button {
 	border-color: #790000 !important;
 }
@@ -789,11 +788,11 @@ footer a.icon:hover {
 	background-color: #ea4c88 !important;
 }
 .pink .button:hover {
-	background-color: #d13c75 !important;	
+	background-color: #d13c75 !important;
 }
 .pink .feature .icon {
 	border-color: #ea4c88 !important;
-} 
+}
 .pink .button {
 	border-color: #cd2e6b !important;
 }
@@ -817,7 +816,7 @@ footer a.icon:hover {
 	background-color: #993399 !important;
 }
 .purple .button:hover {
-	background-color: #8f2b8f !important;	
+	background-color: #8f2b8f !important;
 }
 .purple .feature .icon {
 	border-color: #993399 !important;
@@ -825,7 +824,7 @@ footer a.icon:hover {
 .purple .button {
 	border-color: #871c87 !important;
 }
- 
+
 /* Brown */
 .brown a,
 .brown h2,
@@ -845,14 +844,14 @@ footer a.icon:hover {
 	background-color: #663300 !important;
 }
 .brown .button:hover {
-	background-color: #512800 !important;	
+	background-color: #512800 !important;
 }
 .brown .feature .icon {
 	border-color: #663300 !important;
 }
 .brown .button {
 	border-color: #492400 !important;
-} 
+}
 
 /* Black */
 .black a,
@@ -873,11 +872,11 @@ footer a.icon:hover {
 	background-color: black !important;
 }
 .black .button:hover {
-	background-color: #1f1f1f !important;	
+	background-color: #1f1f1f !important;
 }
 .black .feature .icon {
 	border-color: black !important;
-} 
+}
 .black .button {
 	border-color: black !important;
 }
@@ -1520,7 +1519,7 @@ you can use the generic selector below, but it's slower:
 }
 @media (max-width: 767px) {
 	#top {
-		position: static !important; 
+		position: static !important;
 		top: auto !important;
 		left: auto;
 		right: 0px;
@@ -1701,8 +1700,8 @@ you can use the generic selector below, but it's slower:
 	-webkit-border-radius: 0 20px 20px 0; /* Safari 3-4, iOS 1-3.2, Android ≤1.6 */
 	-moz-border-radius: 0 20px 20px 0 ; /* Firefox < 4 */
 	box-shadow: 2px 0 3px 1px rgba(0,0,0,0.2);
-	-moz-box-shadow: 2px 0 3px 1px rgba(0,0,0,0.2); 
-	-webkit-box-shadow: 2px 0 3px 1px rgba(0,0,0,0.2); 
+	-moz-box-shadow: 2px 0 3px 1px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 2px 0 3px 1px rgba(0,0,0,0.2);
 }
 .styleswitcher .collapse .icon {
 	margin-left: 7px;
